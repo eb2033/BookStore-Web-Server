@@ -1,0 +1,111 @@
+/*Top Title style*/
+.titlebar {
+ background-color: #7197d5;
+ color: #ffffff; 
+ font-family: "Copperplate", "Copperplate", sans-serif;
+ padding: 4px;
+ width: 100%;
+ box-sizing: border-box;
+}
+/*---------------------NavBar start---------------------*/
+/* TopNav background*/
+.topnav {
+  background-color: #7197d5;
+  overflow: hidden;
+}
+
+/* Link Style */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 8px 40px;
+  text-decoration: dashed;
+  font-size: 17px;
+  font-family: "Monaco", "Courier New", monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #3f55cc;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1104aa;
+  color: white;
+}
+/*---------------------NavBar end---------------------*/
+
+.Main {
+    background-color: aliceblue;
+    padding:5px;
+    font-family: "Helvetica", "Helvetica", sans-serif;
+}
+
+table {
+    border-collapse:collapse;
+    
+}
+th,tr {
+  border-bottom: 1px solid #6f7d85;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #b9e5e5;
+}
+th {
+  padding:5px 25px;
+}
+
+.regtable tr,td {
+  background-color: aliceblue;
+  padding:5px;
+  text-align: center;
+}
+
+
+.Registration {
+    background-color: aliceblue;
+    display: flex;
+  padding-top: 10px;
+}
+.CustomerReg {
+    width:50%;
+    align-content: flex-end;
+  
+}
+.SellerReg {
+    width:50%;
+  align-content: center;
+  
+}
+.loginContainer {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Sloginbox, .Cloginbox {
+    width:33%;
+    flex-shrink:0;
+    align-content: center;
+    justify-content: center;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.SellerDashboard {
+  display:flex;
+  padding-top:20px;
+  width: 100%;
+  flex-direction:column;
+}
+.ListBox, .Soldbox{
+  width:50%;
+  justify-content: center;
+  align-content: center;
+  flex-shrink:0;
+  padding-left: 90px;
+  
+}
